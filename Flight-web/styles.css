@@ -1,0 +1,590 @@
+/* CSS */
+body{
+  overflow: hidden;
+}
+.main-content {
+  font-family: "Roboto", sans-serif;
+  font-size: 90%;
+
+}
+
+div,
+h2,
+h3,
+h6,
+form,
+label {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.booking-form {
+  box-sizing: border-box;
+  padding: 2em;
+  background: rgba(0, 0, 0, 0.78);
+  width: 42%;
+  
+  margin: 0 auto;
+}
+
+h2.sub-heading,
+h3.sub-heading {
+  display: inline-block;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 0.4em;
+  padding: 0px 25px 10px 0px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  border-bottom: 2px solid #0091cd;
+  font-family: "Raleway", sans-serif;
+}
+
+.radio-container {
+  text-align: left;
+  margin: 0.7em 0em;
+}
+
+.radio-container h6 {
+  display: inline;
+  margin-top: 10px;
+  color: #0091cd;
+  font-size: 19px;
+  text-transform: capitalize;
+  margin-bottom: 0.7em;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-family: "Raleway", sans-serif;
+}
+.radio-container ul {
+  display: inline;
+}
+.radio-buttons li input[type="radio"] {
+  cursor: pointer;
+}
+.radio-buttons li label {
+  color: #fff;
+  font-size: 13.5px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family: "Raleway", sans-serif;
+}
+.booking-form input[type="text"],
+.booking-form input[type="email"],
+.booking-form textarea,
+select.form-control,
+input#datepicker {
+  width: 100%;
+  font-weight: 300;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+  padding: 10px;
+  outline: none;
+  background: rgba(255, 255, 255, 0);
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.27);
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.booking-form textarea {
+  resize: none;
+  height: 80px;
+}
+.field {
+  margin-bottom: 1em;
+}
+.form-text {
+  width: 100%;
+}
+select.form-control option {
+  background: #000;
+}
+
+.booking-form input[type="submit"],
+.booking-form input[type="reset"] {
+  text-transform: capitalize;
+  background: #0091cd;
+  color: #fff;
+  padding: 0.5em 4em;
+  border: none;
+  font-weight: 500;
+  font-size: 1.2em;
+  margin-top: 1em;
+  margin-left: 40px;
+  width: 200px;
+  float: left;
+  outline: none;
+  letter-spacing: 1px;
+  transition: 0.5s all;
+}
+.booking-form input[type="submit"] {
+  margin-right: 1.5em;
+  background: #d2741c;
+}
+.booking-form input[type="submit"]:hover {
+  background: #0091cd;
+  color: #fff;
+}
+.booking-form input[type="reset"]:hover {
+  background: #d2741c;
+  color: #fff;
+}
+
+.booking-form ::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.booking-form :-moz-placeholder {
+  color: #fff;
+}
+
+.booking-form ::-moz-placeholder {
+  color: #fff;
+}
+
+.booking-form :-ms-input-placeholder {
+  color: #fff;
+}
+
+
+.booking-form label {
+  font-size: 13.5px;
+  color: rgba(255, 255, 255, 0.83);
+  letter-spacing: 2px;
+  font-weight: 400;
+  position: relative;
+  margin-bottom: 5px;
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+ul.radio-buttons li {
+  display: inline-block;
+  margin: 0em 2em;
+}
+@media (max-width: 1440px) {
+  .booking-form {
+    width: 73%;
+  }
+}
+
+@media (max-width: 1366px) {
+  .booking-form {
+    width: 75%;
+  }
+}
+
+@media (max-width: 1280px) {
+  .booking-form {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1080px) {
+  .booking-form {
+    width: 83%;
+    padding: 2em 2.2em;
+  }
+}
+
+@media (max-width: 1024px) {
+  h2.sub-heading,
+  h3.sub-heading {
+    font-size: 22px;
+    padding: 0px 20px 7px 0px;
+  }
+  .field {
+    margin-bottom: 0.8em;
+  }
+  .booking-form input[type="submit"],
+  .booking-form input[type="reset"] {
+    padding: 0.5em 3em;
+    font-size: 1.1em;
+  }
+}
+
+@media (max-width: 768px) {
+  h2.sub-heading,
+  h3.sub-heading {
+    font-size: 21px;
+    padding: 0px 15px 7px 0px;
+  }
+  .radio-container h6 {
+    font-size: 17px;
+    letter-spacing: 1.5px;
+  }
+  ul.radio-buttons li {
+    margin: 0em 1em;
+  }
+}
+
+@media (max-width: 667px) {
+  h2.sub-heading,
+  h3.sub-heading {
+    font-size: 19px;
+    letter-spacing: 1.5px;
+  }
+  .booking-form {
+    width: 86%;
+    padding: 2em 2em;
+  }
+  .booking-form input[type="text"],
+  .booking-form input[type="email"],
+  .booking-form textarea,
+  select.form-control,
+  input#datepicker {
+    padding: 8px 10px;
+  }
+  .field {
+    margin-bottom: 0.9em;
+  }
+  h2.sub-heading-agileits,
+  h3.sub-heading-agileits {
+    margin-bottom: 0.6em;
+  }
+}
+
+@media (max-width: 640px) {
+  .booking-form input[type="submit"] {
+    margin-right: 0.7em;
+  }
+}
+
+@media (max-width: 600px) {
+  .booking-form {
+    width: 90%;
+  }
+  .booking-form input[type="submit"],
+  .booking-form input[type="reset"] {
+    padding: 0.5em 2em;
+  }
+}
+
+@media (min-width: 481px) {
+  .flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+  }
+  .form-text1,
+  .form-text2 {
+    flex-basis: 48.5%;
+    -webkit-flex-basis: 48.5%;
+  }
+}
+
+@media (min-width: 737px) {
+  .triple-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+  }
+  .form-text11,
+  .form-text22,
+  .form-text33 {
+    flex-basis: 32%;
+    -webkit-flex-basis: 32%;
+  }
+}
+
+@media (max-width: 480px) {
+  ul.radio-buttons li {
+    margin: 0em 0.5em;
+  }
+  .radio-container {
+    margin: 1.3em 0 0.7em;
+  }
+  .booking-form {
+    width: 85%;
+  }
+  ul.radio-buttons li {
+    margin: 1em 0em 0em 0.2em;
+    display: block;
+  }
+  .booking-form input[type="submit"],
+  .booking-form input[type="reset"] {
+    font-size: 1em;
+  }
+  .booking-form textarea {
+    height: 60px;
+  }
+  .radio-container {
+    margin: 1em 0 0.7em;
+  }
+}
+
+@media (max-width: 414px) {
+  .booking-form {
+    width: 90%;
+  }
+  .booking-form {
+    width: 90%;
+    padding: 1.5em 1.7em;
+  }
+}
+
+@media (max-width: 384px) {
+  .booking-form input[type="submit"],
+  .booking-form input[type="reset"] {
+    float: none;
+  }
+  .booking-form input[type="submit"] {
+    margin-right: 0em;
+  }
+}
+
+@media (max-width: 320px) {
+  .booking-form {
+    width: 93%;
+    padding: 1.3em 1.5em;
+  }
+  h2.sub-heading,
+  h3.sub-heading {
+    font-size: 18px;
+    letter-spacing: 1.4px;
+    padding: 0px 12px 5px 0px;
+  }
+}
+
+/* Reset some basic styles */
+.main-content {
+  font-family: "Roboto", sans-serif;
+  font-size: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.form-container,
+.welcome-container {
+  box-sizing: border-box;
+  padding: 2em;
+  background: rgba(0, 0, 0, 0.78);
+  width: 42%;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sub-heading {
+  display: inline-block;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 0.4em;
+  padding: 0px 25px 10px 0px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  border-bottom: 2px solid #0091cd;
+  font-family: "Raleway", sans-serif;
+}
+
+.field {
+  margin-bottom: 1em;
+}
+
+.field input {
+  width: 100%;
+  font-weight: 300;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+  padding: 10px;
+  outline: none;
+  background: rgba(255, 255, 255, 0);
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.27);
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-container .btn,
+.flex-container input[type="submit"],
+.flex-container input[type="reset"] {
+  text-transform: capitalize;
+  background: #0091cd;
+  color: #fff;
+  padding: 0.5em 2em;
+  border: none;
+  font-weight: 500;
+  font-size: 1.2em;
+  margin-top: 1em;
+  margin-left: 40px;
+  width: 200px;
+  outline: none;
+  letter-spacing: 1px;
+  transition: 0.5s all;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.flex-container .btn:hover,
+.flex-container input[type="submit"]:hover,
+.flex-container input[type="reset"]:hover {
+  background: #d2741c;
+  color: #fff;
+}
+
+.additional-links {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.additional-links a {
+  color: #0091cd;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.additional-links a:hover {
+  color: #d2741c;
+}
+
+.welcome-container p {
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  margin: 1em 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 1440px) {
+  .form-container,
+  .welcome-container {
+    width: 73%;
+  }
+}
+
+@media (max-width: 1366px) {
+  .form-container,
+  .welcome-container {
+    width: 75%;
+  }
+}
+
+@media (max-width: 1280px) {
+  .form-container,
+  .welcome-container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1080px) {
+  .form-container,
+  .welcome-container {
+    width: 83%;
+    padding: 2em 2.2em;
+  }
+}
+
+@media (max-width: 1024px) {
+  .sub-heading {
+    font-size: 22px;
+    padding: 0px 20px 7px 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sub-heading {
+    font-size: 21px;
+    padding: 0px 15px 7px 0px;
+  }
+}
+
+@media (max-width: 667px) {
+  .sub-heading {
+    font-size: 19px;
+    letter-spacing: 1.5px;
+  }
+  .form-container,
+  .welcome-container {
+    width: 86%;
+    padding: 2em 2em;
+  }
+}
+
+@media (max-width: 640px) {
+  .flex-container .btn {
+    margin-right: 0.7em;
+  }
+}
+
+@media (max-width: 600px) {
+  .form-container,
+  .welcome-container {
+    width: 90%;
+  }
+  .flex-container .btn,
+  .flex-container input[type="submit"],
+  .flex-container input[type="reset"] {
+    padding: 0.5em 2em;
+  }
+}
+
+@media (max-width: 480px) {
+  .form-container,
+  .welcome-container {
+    width: 85%;
+  }
+  .flex-container .btn,
+  .flex-container input[type="submit"],
+  .flex-container input[type="reset"] {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 414px) {
+  .form-container,
+  .welcome-container {
+    width: 90%;
+  }
+  .flex-container .btn,
+  .flex-container input[type="submit"],
+  .flex-container input[type="reset"] {
+    font-size: 0.9em;
+    padding: 0.4em 1.5em;
+  }
+}
+
+@media (max-width: 375px) {
+  .form-container,
+  .welcome-container {
+    width: 92%;
+  }
+  .flex-container .btn,
+  .flex-container input[type="submit"],
+  .flex-container input[type="reset"] {
+    font-size: 0.8em;
+    padding: 0.4em 1.2em;
+  }
+}
